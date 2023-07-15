@@ -58,7 +58,7 @@ h1 {
     font-size: clamp(17px,1.6vw,50px);
     font-weight: 600;
     white-space:nowrap;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-shadow: 0px 4px 4px rgba(246, 6, 6, 0.25);
 }
 .hero {
     font-family: 'Chakra Petch', sans-serif;
@@ -75,10 +75,19 @@ p {font-family: 'PT Mono', monospace;
     width: 203px;
     height: 48px;  
     font-family: 'Chakra Petch', sans-serif;font-weight: 600;
-    background: #333333;
+    background: #f90a0a;
+    border-radius: 20PX;
+    box-shadow: 0PX 0PX 20PX 0PX rgb(17, 17, 17);
     cursor: pointer;
     margin: 30px 0;  
     border: none; 
+    transition: 0.5S;
+}
+.btn:hover 
+{
+    background-color: black;
+    box-shadow: 0PX 0PX 20PX 0PX red;
+
 }
 /*Media queries*/
 @media (max-width: 1050px){
